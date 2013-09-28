@@ -29,6 +29,13 @@ namespace AirDrop
 
             return true;
         }
+
+        public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
+        {
+            new UIAlertView("Airdrod File Received!", "File " + url + " received!", null, "OK", null).Show();
+            return true;
+        }
+
     }
 }
 

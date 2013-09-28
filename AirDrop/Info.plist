@@ -25,5 +25,13 @@
 	<string></string>
 	<key>CFBundleVersion</key>
 	<string></string>
+	    <key>CFBundleTypeName</key>
+    <string>PDF</string>
+    <key>LSHandlerRank</key>
+    <string>Default</string>
+    <key>LSItemContentTypes</key>
+    <array>
+        <string>com.adobe.pdf</string>
+    </array>
 </dict>
 </plist>
